@@ -1,11 +1,10 @@
 # Ethereum wallet generator
 
 Steps:
-1. Go to src folder
-2. Npm install
-3. Npm start
-4. You will be prompted with password input
-5. Save memonic on piece of paper
+1. Npm install
+2. Npm start
+3. You will be prompted with password input
+4. Save memonic on piece of paper
 
 Output:
 ```javascript
