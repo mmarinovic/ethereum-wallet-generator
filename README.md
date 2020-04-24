@@ -2,17 +2,17 @@
 
 ## Use with npx
 ```
-npx ethereum-walet-generator
+npx eth-walet-generator
 ```
 
 ## Install
 ```
-npm install -g ethereum-walet-generator
+npm install -g eth-walet-generator
 ```
 
 ## Usage:
 ```
-ethereum-walet-generator
+eth-walet-generator
 ```
 
 1. You will be prompted with password input
