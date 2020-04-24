@@ -2,11 +2,11 @@
   "name": "eth-wallet-generator",
   "version": "1.0.2",
   "description": "Easily create ethereum wallet",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
   },
-  "bin": "index.js",
+  "bin": "src/index.js",
   "author": {
 		"name": "Marko Marinovic",
 		"email": "marinovic.marko@outlook.com",
