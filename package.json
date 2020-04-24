@@ -1,17 +1,23 @@
 {
   "name": "eth-wallet-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Easily create ethereum wallet",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
   },
-  "bin": "src/index.js",
+  "bin": "src/cli.js",
   "author": {
 		"name": "Marko Marinovic",
 		"email": "marinovic.marko@outlook.com",
 		"url": "https://markomarinovic.com"
-	},
+  },
+  "keywords": [
+    "ethereum",
+    "cli",
+    "wallet",
+    "ethereum wallet generator"
+  ],
   "license": "MIT",
   "dependencies": {
     "eth-lightwallet": "4.0.0",
