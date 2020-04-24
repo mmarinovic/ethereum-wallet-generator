@@ -2,17 +2,17 @@
 
 ## Use with npx
 ```
-npx eth-wallet-generator
+$ npx eth-wallet-generator
 ```
 
 ## Install
 ```
-npm install -eth-wallet-generator
+$ npm install -eth-wallet-generator
 ```
 
 ## Usage:
 ```
-eth-wallet-generator
+$ eth-wallet-generator
 ```
 
 1. You will be prompted with password input
