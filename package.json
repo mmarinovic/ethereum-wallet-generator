@@ -1,6 +1,6 @@
 {
   "name": "eth-wallet-generator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Easily create ethereum wallet",
   "main": "src/index.js",
   "scripts": {
