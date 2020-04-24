@@ -6,10 +6,16 @@
   "scripts": {
     "start": "node src/index.js"
   },
-  "author": "mmarinovic",
+  "bin": "index.js",
+  "author": {
+		"name": "Marko Marinovic",
+		"email": "marinovic.marko@outlook.com",
+		"url": "https://markomarinovic.com"
+	},
   "license": "MIT",
   "dependencies": {
     "eth-lightwallet": "4.0.0",
+    "jest": "^25.3.0",
     "prompt": "1.0.0"
   }
 }

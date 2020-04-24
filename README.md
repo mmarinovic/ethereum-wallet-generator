@@ -1,10 +1,22 @@
 # Ethereum wallet generator
 
-Steps:
-1. `npm install`
-2. `npm start`
-3. You will be prompted with password input
-4. Save memonic on piece of paper
+## Use with npx
+```
+npx ethereum-walet-generator
+```
+
+## Install
+```
+npm install -g ethereum-walet-generator
+```
+
+## Usage:
+```
+ethereum-walet-generator
+```
+
+1. You will be prompted with password input
+2. Save memonic on piece of paper
 
 Output:
 ```javascript
