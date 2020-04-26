@@ -2,7 +2,7 @@
 
 ## Use with npx
 ```
-npx eth-wallet-generator
+$ npx eth-wallet-generator
 ```
 
 ## Install
@@ -12,7 +12,7 @@ npm install -g eth-wallet-generator
 
 ## Usage:
 ```
-eth-wallet-generator
+$ eth-wallet-generator
 ```
 
 1. You will be prompted with password input
@@ -20,7 +20,7 @@ eth-wallet-generator
 
 Output:
 ```javascript
-Address:  0x68c42a833c57c2638734248e98b7e9d3b21c867f
-Private key:  ba8f5a5aca315c71051d8d7d28e5df1cd0ebce9e368ebd7a69c4109a031f174b
-Memonic:  leopard trap now cherry crisp tone urban hurdle brief drama ill young
+🏠 Address:  0xa7d1fe7f4f3512ade2096bde69a50a249c1f38c1
+🔑 Private key:  5081e7a5a1bf99ea3852135561294431eb6e2a6f815b08ecdfce32bb539c3651
+📝 Mnemonic:  fault theory glass burger time conduct wing portion cluster opera example elevator
 ```
