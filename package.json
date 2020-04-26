@@ -1,7 +1,7 @@
 {
   "name": "eth-wallet-generator",
-  "version": "1.0.4",
-  "description": "Easily create ethereum wallet",
+  "version": "1.0.5",
+  "description": "Easily create Ethereum wallet",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
@@ -16,12 +16,12 @@
     "ethereum",
     "cli",
     "wallet",
-    "ethereum wallet generator"
+    "ethereum create wallet",
+    "generator"
   ],
   "license": "MIT",
   "dependencies": {
     "eth-lightwallet": "4.0.0",
-    "jest": "^25.3.0",
     "prompt": "1.0.0"
   }
 }
