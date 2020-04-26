@@ -1,5 +1,5 @@
 # Ethereum wallet generator
-CLI for generating Ethereum wallets. Easily get a new private key and mnemonic.
+CLI for generating Ethereum wallets. Easily create a new private key and mnemonic.
 
 ## Use with npx
 ```
