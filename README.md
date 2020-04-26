@@ -1,4 +1,5 @@
 # Ethereum wallet generator
+CLI for generating Ethereum wallets. Easily get a new private key and mnemonic.
 
 ## Use with npx
 ```
@@ -20,7 +21,7 @@ $ eth-wallet-generator
 
 Output:
 ```javascript
-🏠 Address:  0xa7d1fe7f4f3512ade2096bde69a50a249c1f38c1
+🏠 Address: 0xa7d1fe7f4f3512ade2096bde69a50a249c1f38c1
 🔑 Private key:  5081e7a5a1bf99ea3852135561294431eb6e2a6f815b08ecdfce32bb539c3651
 📝 Mnemonic:  fault theory glass burger time conduct wing portion cluster opera example elevator
 ```
