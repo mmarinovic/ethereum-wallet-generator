@@ -16,7 +16,7 @@ $ eth-wallet-generator
 ```
 
 1. You will be prompted with password input
-2. Save memonic on piece of paper
+2. Save mnemonic and private key on a piece of paper
 
 Output:
 ```javascript
