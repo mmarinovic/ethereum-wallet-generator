@@ -8,7 +8,7 @@ $ npx eth-wallet-generator
 
 ## Install
 ```
-npm install -g eth-wallet-generator
+$ npm install -g eth-wallet-generator
 ```
 
 ## Usage:
