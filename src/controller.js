@@ -1,3 +1,5 @@
+const colors = require('colors/safe');
+
 class Controller {
     constructor(consoleService, walletService){
         this.consoleService = consoleService;
@@ -11,9 +13,10 @@ class Controller {
     async handleResult({ password }){
        const { address, privateKey, seedPhrase } = await this.walletService.generate(password).catch(console.error);
 
-       console.log("Address: ", address);
-       console.log("Private key: ", privateKey);
-       console.log("Memonic: ", seedPhrase);
+       console.log("");
+       console.log("🏠 Address: ", colors.blue(address));
+       console.log("🔑 Private key: ", colors.magenta(privateKey));
+       console.log("📝 Mnemonic: ", colors.cyan(seedPhrase));
 
        process.exit();
     }
