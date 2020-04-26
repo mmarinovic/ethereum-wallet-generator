@@ -8,9 +8,9 @@
   },
   "bin": "src/cli.js",
   "author": {
-		"name": "Marko Marinovic",
-		"email": "marinovic.marko@outlook.com",
-		"url": "https://markomarinovic.com"
+    "name": "Marko Marinovic",
+    "email": "marinovic.marko@outlook.com",
+    "url": "https://markomarinovic.com"
   },
   "keywords": [
     "ethereum",
