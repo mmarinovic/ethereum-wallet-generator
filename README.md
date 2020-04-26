@@ -1,4 +1,8 @@
 # Ethereum wallet generator
+<p align="left">
+<img alt="npm version" src="https://img.shields.io/npm/v/eth-wallet-generator.svg">
+<img alt="NPM" src="https://img.shields.io/npm/l/eth-wallet-generator.svg">
+</p>
 CLI for generating Ethereum wallets. Easily create a new private key and mnemonic.
 
 ## Use with npx
