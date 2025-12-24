@@ -1,12 +1,17 @@
 {
   "name": "eth-wallet-generator",
-  "version": "1.0.7",
-  "description": "Easily create Ethereum wallet",
-  "main": "src/index.js",
-  "scripts": {
-    "start": "node src/index.js"
+  "version": "2.0.0",
+  "description": "Secure CLI for generating Ethereum wallets with BIP-39 mnemonic phrases",
+  "type": "module",
+  "main": "src/index.ts",
+  "bin": {
+    "eth-wallet-generator": "src/index.ts"
   },
-  "bin": "src/cli.js",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch src/index.ts",
+    "test": "bun test"
+  },
   "author": {
     "name": "Marko Marinovic",
     "email": "marinovic.marko@outlook.com",
@@ -16,13 +21,20 @@
     "ethereum",
     "cli",
     "wallet",
-    "ethereum create wallet",
-    "generator"
+    "generator",
+    "bip39",
+    "mnemonic",
+    "bun"
   ],
   "license": "MIT",
   "dependencies": {
-    "colors": "^1.4.0",
-    "eth-lightwallet": "4.0.0",
-    "prompt": "1.0.0"
+    "@clack/prompts": "^0.9.1",
+    "@scure/bip32": "^1.6.2",
+    "@scure/bip39": "^1.5.4",
+    "picocolors": "^1.1.1",
+    "viem": "^2.22.4"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
   }
 }
