@@ -1,7 +1,6 @@
 # Ethereum Wallet Generator
 
 <p align="left">
-  <img alt="npm version" src="https://img.shields.io/npm/v/eth-wallet-generator.svg">
   <img alt="license" src="https://img.shields.io/npm/l/eth-wallet-generator.svg">
   <img alt="bun" src="https://img.shields.io/badge/Bun-1.0+-black?logo=bun&logoColor=white">
   <img alt="typescript" src="https://img.shields.io/badge/TypeScript-5.0+-blue?logo=typescript&logoColor=white">
